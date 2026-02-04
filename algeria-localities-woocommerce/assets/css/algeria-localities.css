@@ -1,0 +1,22 @@
+/**
+ * Algeria Localities for WooCommerce - front-end styles.
+ */
+
+/* Ensure bilingual Arabic labels display nicely in checkout selects. */
+.woocommerce-checkout .algeria-wilaya-field select,
+.woocommerce-checkout .algeria-commune-field select {
+    max-width: 100%;
+}
+
+/* Optional RTL alignment when Arabic labels are enabled. */
+body.algeria-localities-rtl .woocommerce-checkout select,
+body.algeria-localities-rtl .woocommerce-checkout input[type="text"] {
+    direction: rtl;
+    text-align: right;
+}
+
+body.algeria-localities-rtl .woocommerce-checkout label {
+    text-align: right;
+    display: block;
+}
+
